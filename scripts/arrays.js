@@ -61,3 +61,5 @@ searchButton.addEventListener("click", (ev) => {
 });
 
 // 3. we update the result count and related summary info as we filter
+const summaryField = document.getElementById("summary-field");
+const filteredSummaryField = summaryField.filter((card) => filteredSummaryField(card, prereqs, credits));
